@@ -1,0 +1,12 @@
+svg {
+  display: inline-block;
+  width: 150px;
+  stroke: black;
+}
+path {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 5px;
+  transition: 1s;
+}
