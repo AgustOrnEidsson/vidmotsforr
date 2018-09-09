@@ -10,3 +10,14 @@ path {
   stroke-width: 5px;
   transition: 1s;
 }
+.line{
+	margin: 50px auto;
+	padding: 10px;
+	text-align: center;
+}
+.line svg {
+	transition: 1s;
+}
+.line svg:hover {
+	transform: rotate(-90deg) scale(10);
+}
