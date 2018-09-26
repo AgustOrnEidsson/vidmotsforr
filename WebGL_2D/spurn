@@ -12,4 +12,12 @@
 
 2. Þríhyrningar eru notaðir vegna þess að þeir eru svo nákvæmir, þú getru verið viss um að það sé hægt að fylla í öll göt með þríhyrningum. Það er einfalt að teikna þá og það er hægt að gera hvaða form sem er með þríhyrningum.
 
-3. 
+3. Lýsir ferli sem fylgir grafíska búnaðnum, þannig að á endanum birtis heil mynd á skjánum með WebGL.!!!!!!!!!!!!!!!!!Á eftir að klára
+
+4.
+
+5. GLSL er forritunar mál mjög líkt C
+   Shaders er forrit sem er skrifað í GLSL sem GPU-ið keyrir á sérstökum stað í graphics pipelineinu. Í WebGL eru til vertex og fragment shaders.
+   Vertex shaders, Fragment shaders býr til litinn sem er birtur.
+   
+Vertex shaders output vertices in homogenous clip space, and fragment shaders output what color a fragment should be.
