@@ -1,0 +1,15 @@
+1. 
+   a) GPU-ið er hannað til að sjá um mikla grafík, t.d animaton og tölvuleiki. GPU-ið tekur við mikið af gögnum og fer með sömu að gerðina aftur og aftur á rosalegum hraða.
+  
+   b) Pixli er lítill ferningur af ljósi á skjánum sem er einn af mörgum pixlum sem saman setja myndina í heild sinni
+  
+   c) Frame buffer er minni sem geymir heildar myndina sem á að birta á skjánum.
+      Raser scanner ere það sem birtir myndina pixla fyrir pixla í stað þess að gera það allt á sama tíma. Þetta er venjulega gert frá vinstri til hægri og svo línuna fyrir neðan.
+      Refresh rate er hversu oft myndin á skjánum getur verið teiknuð eða endur birt á sekúndu. Þetta er mælt í hertz(60Hz,144Hz)
+	
+   d) WebGL er 3D og 2D javascript API, þar sem þú getur birt 3D og 2D gagnvirka grafík.
+      OpenGL er jög svipað og WebGL nema þetta er desktop forrit sem er "cross-language".
+
+2. Þríhyrningar eru notaðir vegna þess að þeir eru svo nákvæmir, þú getru verið viss um að það sé hægt að fylla í öll göt með þríhyrningum. Það er einfalt að teikna þá og það er hægt að gera hvaða form sem er með þríhyrningum.
+
+3. 
