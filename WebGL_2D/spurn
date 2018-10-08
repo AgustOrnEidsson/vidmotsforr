@@ -12,9 +12,11 @@
 
 2. Þríhyrningar eru notaðir vegna þess að þeir eru svo nákvæmir, þú getru verið viss um að það sé hægt að fylla í öll göt með þríhyrningum. Það er einfalt að teikna þá og það er hægt að gera hvaða form sem er með þríhyrningum.
 
-3. Lýsir ferli sem fylgir grafíska búnaðnum, þannig að á endanum birtis heil mynd á skjánum með WebGL.!!!!!!!!!!!!!!!!!Á eftir að klára
+3. Rendering pipeline tekur inn 3d object sem búinn er til úr primatives.
+   Fyrsta skref ferilsins er svokallað Vertex processing. Vertex processing tekur upplýsingar um öll hornin og breytir þeim í primatives og velur hnitin. Síðan er valið hvar er valið staðsetninguna á myndavélinni.
+   Primatives eru breytt í fragments, það ferli er kallað rasterization. Fragmentin eru síðan unnið með og er sett grafík og ljós á hlutinn. Síðast er breytt öllum þessum fragments í 2d grid af pixlum til að setja á skjáinn.
 
-4.
+4. Þetta er notað til að umbreyta hlutnum þetta er allt sett í grid, í 2d er skipt í 9(3x3) og í 3d er skipt í 12(4x4)
 
 5. GLSL er forritunar mál mjög líkt C
    Shaders er forrit sem er skrifað í GLSL sem GPU-ið keyrir á sérstökum stað í graphics pipelineinu. Í WebGL eru til vertex og fragment shaders.
